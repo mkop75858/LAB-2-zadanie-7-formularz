@@ -17,8 +17,7 @@
     font-weight: bold;
 }
 
-.form-group input[type="text"],
-.form-group input[type="number"] {
+.form-group input[type="text"] {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osoby>
+<rejestracja>
     <osoba id = "1">
         <imie>Mateusz</imie>
         <nazwisko>Łopanka</nazwisko>
@@ -12,4 +12,4 @@
         <plec>kobieta</plec>
         <wiek>35</wiek>
     </osoba>
-</osoby>
+</rejestracja>

@@ -1,4 +1,35 @@
-/* Stylizacja formularza */
+/* 1. Ustawienia ogólne - ograniczają szerokość i centrują stronę */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;    /* Maksymalna szerokość strony */
+    margin: 0 auto;      /* Centrowanie całej strony (marginesy auto) */
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* 2. Centrowanie nawigacji i nagłówków */
+nav, h1, h2, h3 {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+img {
+    display: block;
+    margin: 20px auto;   /* Centrowanie obrazka */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
 .form-section {
     background: white;
     padding: 25px;
@@ -17,16 +48,17 @@
     font-weight: bold;
 }
 
+
 .form-group input[type="text"] {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Ważne, aby padding nie rozpychał pola */
+    box-sizing: border-box; 
 }
 
 .radio-group {
-    margin-top: 5px;
+    margin: 10px 0;
 }
 
 .radio-group label {
@@ -38,12 +70,13 @@
 button {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     width: 100%;
+    transition: background 0.3s;
 }
 
 button:hover {
